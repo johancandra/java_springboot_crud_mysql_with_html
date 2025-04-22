@@ -1,0 +1,26 @@
+Database:
+Open XAMPP:
+Start Apache
+Start MySql
+Create Database dbcodingjohankristianc
+Import dbcodingjohankristianc.sql to dbcodingjohankristianc
+
+Run On:
+open command_prompt:
+cd to folder java_springboot_crud_mysql(project) :
+gradlew runBoot
+
+Url List Post(Chrome/Firefox/Other Internet Browser):
+http://localhost:8080/api/posts
+
+Input Post(API Request)
+POST http://localhost:8080/api/posts
+
+Get Post By Id (API Request) 
+GET http://localhost:8080/api/posts/{id}
+
+Update Post By Id (API Request)
+PUT http://localhost:8080/api/posts/{id}
+
+Delete PostBy Id (API Request) 
+DELETE http://localhost:8080/api/posts/{id}
